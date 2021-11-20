@@ -1,0 +1,51 @@
+.HB_MATRIX_DETAILS_01{
+    border:1px solid black;
+    border-spacing: 0px;
+    border-collapse:collapse;
+}
+.HB_MATRIX_DETAILS_01 th,.HB_MATRIX_DETAILS_01 td{
+    border:1px solid black;
+    margin: 0px;
+    padding:5px;
+}
+.HB_MATRIX_DETAILS_01 th{
+    background-color: #999;
+}
+.HB_MATRIX_DETAILS_01 tr:nth-child(even){
+    background-color:#dedede;
+}
+
+.HB_MATRIX_TABLE_PRINT_01{
+    padding:5px;
+    border:2px solid #999;
+}
+
+.HB_MATRIX_TABLE_PRINT_01  td{
+    padding:5px;
+    margin: 0px;
+    border-right:1px dashed #999;
+    border-bottom: 1px dashed #999;
+    text-align: center;
+    
+}
+.HB_MATRIX_TABLE_PRINT_01  td:first-child{
+    border-left: 1px dashed #999;
+}
+.HB_MATRIX_TABLE_PRINT_01  tr:first-child td{
+    border-top:1px dashed #999;
+}
+
+.HB_MATRIX_TABLE_PRINT_01 tr:nth-child(odd) td:nth-child(odd),.HB_MATRIX_TABLE_PRINT_01 tr:nth-child(even) td:nth-child(even){
+    background-color: #dedede;
+}
+
+.HB_MATRIX_01_NATURAL_VIEW{
+    display: inline-block;
+    padding:5px;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-radius: 10px;
+}
+.HB_MATRIX_01_NATURAL_VIEW td{
+    padding:3px;
+}
